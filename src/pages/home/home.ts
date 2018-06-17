@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  openReview() {
+    this.navCtrl.push("MovieReviewPage");
+  }
+
 }

@@ -1,0 +1,33 @@
+page-movie-review {
+
+  .rating{
+    background-color: #5a5a5a;
+    padding: 26%;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #949494;
+  }
+
+  h2{
+    font-family: 'Black Ops One', cursive;
+    margin-top: 0.5rem;
+  }
+
+  .header-image {
+    background-size: cover;
+  }
+
+  .main-content,.main-content-skleton {
+padding: 10px;
+color: #ababab;
+background: #0e0e0e; /* Old browsers */
+background: -moz-linear-gradient(top, #0e0e0e 0%, #444444 100%);
+background: -webkit-linear-gradient(top, #0e0e0e 0%,#444444 100%);
+background: linear-gradient(to bottom, #0e0e0e 0%,#444444 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e',
+endColorstr='#444444',GradientType=0 );
+}
+
+}
